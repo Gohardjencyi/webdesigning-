@@ -1,0 +1,222 @@
+/*top section*/
+.head
+{
+    background-color:rgb(38, 176, 224);
+}
+/*menu section*/
+.head li:hover{background-color: gray;color: white;}
+
+	 .nav-item .dropdown-menu{ display: none; }
+
+	.nav-item:hover .dropdown-menu{ display: block; }
+  .grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto auto ;
+    grid-gap: 40px;
+    padding: 20px 20px;
+  }
+  
+  .grid-container > div {
+    text-align: center;
+    font-size: 20px;
+  }
+  .custom-megamenu img {
+    border: 1px solid;
+    border-radius: 50%;
+    width: 120px;
+}
+.custom-megamenu{    padding: 20px 40px;
+}
+.align
+{
+  font-size: 15px;
+}
+.search
+{
+    background-color: skyblue;
+    color: white;
+    width: 130px;
+    -webkit-transition: width 0.4s ease-in-out;
+    transition: width 0.4s ease-in-out;
+}
+/* When the input field gets focus, change its width to 100% */
+.search:focus {
+  width: 200px;
+}
+.emg
+{
+    color: deepskyblue;
+}
+.icon
+{
+    background-color: aqua;
+}
+.menu
+{
+    color: white;
+    padding: 3px 20.10px!important;
+}
+.menuicon
+{
+    padding-left: 100px;
+}
+/*menu section end*/
+/*slider image section start*/
+  /* Make the image fully responsive */
+  .carousel-inner img {
+    width: 100%;
+    height: 100%;
+  }
+  .slide
+  {
+      height: 400px;
+      background-color: black;
+  }
+ .img1 
+ {
+    height: 400px;
+  background-image: url("../images/Black-Skin-Banner.jpg");
+  background-repeat: no-repeat  cover  left;
+  padding-top: 50px ;
+  padding-bottom: 50px;
+} 
+ .img2 
+ {
+  height: 400px;
+  background-image: url("../images/Ipl-Acne-Treatment.jpg");
+  background-repeat: no-repeat  cover left;
+  padding-top: 50px ;
+  padding-bottom: 50px;
+} 
+ .img3
+ {
+  height: 400px;
+  background-image: url("../images/legs-banner.jpg");
+  background-repeat: no-repeat  right cover;
+  padding-top: 50px ;
+  padding-bottom: 50px;
+}
+.img4
+{
+ height: 400px;
+ background-image: url("../images/pcos-Banner-1.jpg");
+ background-repeat: no-repeat cover right;
+ padding-top: 50px ;
+ padding-bottom: 50px;
+}
+/*slider image section end*/
+/*three column section start*/
+.three-column-section
+{
+  margin-top: -40px;  
+}
+.part
+{
+  border: 5px solid white;
+}
+.part1
+{
+  height: 45px;
+}
+.part2
+{
+    height: 150px;
+    background-image: radial-gradient( white, white,skyblue);
+}
+.part1a
+{
+  height: 45px;
+  background-color:rgb(126, 126, 247);
+}
+.part2a
+{
+    height: 150px;
+    background-image: radial-gradient( white, white,rgb(156, 156, 243));
+}
+
+.part1b
+{
+  height: 45px;
+  background-color:rgb(231, 85, 109);
+}
+.part2b
+{
+    height: 150px;
+    background-image: radial-gradient( white, white,rgb(247, 144, 161));
+}/* three column section end*/
+/*book consultation start */
+.book-consultation
+{
+  background-image:url(../images/book-consul.jpg);
+  padding-top: 50px ;
+  padding-bottom: 50px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    line-height:35px;
+}
+.book-consultation-form .title {
+  text-align: center;
+  background: #82827f;
+  padding: 7px 0px 3px;
+  margin-bottom: 0px!important;
+  color: #fff;
+}
+.name-icon{padding: 5px 10px;}
+.name{width: 85%;}
+.book-consultation-form p{margin: 0;}
+.name-ext
+{
+  height: 30px;
+    -webkit-transition: width 0.4s ease-in-out;
+    transition: height 0.4s ease-in-out;
+    overflow: hidden;
+}
+
+/* When the input field gets focus, change its width to 100% */
+.name-ext:hover {
+  height: 50px;
+}
+/*book consultation end */
+/* choose us start */
+.choose-us
+{
+  background-image: url(../images/choose-us.jpg);
+  background-repeat: no-repeat cover;
+  line-height: 25px;
+}
+/* choose us end*/
+/*footer start */
+.clinic img
+{
+    width: 100%;
+    height: auto;
+}
+@media screen and (max-width: 767px){
+  .clinic-logo{width: 100%;}
+  .clinic-logo img{margin-bottom: 20px;margin-left: 100px;}
+}
+.foot-color{color: gray;line-height: 30px;}
+.footer1 a:hover{color: rgb(38, 176, 224);}
+/* footer end*/
+/*women front page*/
+.women-bg
+{
+  background-image:url(../images/women\ background.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    line-height:35px;
+}
+.women-cont
+{
+  padding: 50px 50px;
+}
+.footer-form{
+  background-color: rgb(231, 245, 248);
+  padding: 40px;
+
+}
+.cont-size{padding: 0px 70px;}
+.hair-remove{line-height: 30px;}
+.ryt{background-color: rgb(248, 183, 61);}
